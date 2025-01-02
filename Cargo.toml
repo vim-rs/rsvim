@@ -29,7 +29,7 @@ tracing-appender = { version = "0.2", features = ["parking_lot"] }
 tokio = { version = "1", features = ["full"] }
 tokio-util = { version = "0.7.13", features = ["full"] }
 # tokio-stream = { version = "0.1.16", features = ["full"] }
-clap = { version = "4.5.22", features = ["derive", "unicode"] }
+clap = { version = "4.5.23", features = ["derive", "unicode"] }
 futures = "0.3"
 # rand = "0.8.5"
 # heed = "0.20.5"
