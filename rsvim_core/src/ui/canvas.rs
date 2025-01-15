@@ -95,7 +95,7 @@ impl Canvas {
     self.prev_frame.get_cells()
   }
 
-  /// Get previous frame cells at specific range.
+  /// Get previous frame cells at specified range.
   pub fn prev_cells_at(&self, pos: U16Pos, n: usize) -> &[Cell] {
     self.prev_frame.get_cells_at(pos, n)
   }

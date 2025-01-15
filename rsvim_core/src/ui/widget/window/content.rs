@@ -232,6 +232,7 @@ impl Widgetable for WindowContent {
   }
 }
 
+// spellchecker:off
 #[allow(unused_imports)]
 #[cfg(test)]
 mod tests {
@@ -847,3 +848,4 @@ mod tests {
     do_test_draw_from_top_left(&actual, &expect);
   }
 }
+// spellchecker:on

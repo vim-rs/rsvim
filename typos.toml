@@ -1,13 +1,12 @@
 [default]
+extend-ignore-re = [
+  # Ignore blocks with `// spellchecker:<on|off>`
+  "(?s)(#|//)\\s*spellchecker:off.*?\\n\\s*(#|//)\\s*spellchecker:on",
+]
+
 extend-ignore-words-re = [
-  # Valid words
+  # Ignore specific words
   "visibles",
-  "conten",
-  "ther",
-  "smal",
-  "beginnin",
-  "nnot",
-  "eith",
 ]
 
 [files]
